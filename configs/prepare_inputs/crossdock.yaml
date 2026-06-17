@@ -1,0 +1,6 @@
+schema_version: 1
+mode: crossdock
+
+protein:
+  pH: 7.4
+  forcefield: amber19-all.xml

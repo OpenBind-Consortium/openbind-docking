@@ -1,0 +1,26 @@
+name: openbind-docking
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.12
+
+  - pandas=2.3.3
+  - scikit-learn=1.8.0
+  - mdanalysis=2.10.0
+  - rdkit=2025.03.6
+  - openmm=8.5.1
+  - pdbfixer=1.12
+  - openbabel=3.1.1
+  - prody=2.6.1
+  - openstructure=2.11.1
+  - tqdm=4.67.3
+  - pymol-open-source=3.1.0
+
+  - pip
+  - pip:
+      - pyarrow==24.0.0
+      - pyyaml==6.0.3
+      - posebusters==0.6.5

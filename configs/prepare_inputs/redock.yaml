@@ -1,0 +1,14 @@
+schema_version: 1
+mode: redock
+
+protein:
+  chain_policy: single  # single | nearby | all
+  ligand_cutoff_angstrom: 6.0
+  pH: 7.4
+  forcefield: amber19-all.xml
+
+ligand:
+  protonate: true
+  minimise_conformers: uff  # none | uff | mmff94
+  num_conformers: 5
+  seed: 1

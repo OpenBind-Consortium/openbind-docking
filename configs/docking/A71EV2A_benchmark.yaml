@@ -1,0 +1,35 @@
+modes:
+  - redock
+  - fragment_crossdock
+  - A71EV2A_AF
+  - A71EV2A_8POA
+
+methods:
+  gnina:
+    cnn_model: default
+    num_inputs: 5
+    exhaustiveness: 8
+    num_modes: 8
+    box_size: 25
+    seeds:
+      - 1370180479
+
+  smina:
+    scoring: vina
+    num_inputs: 5
+    exhaustiveness: 8
+    num_modes: 8
+    box_size: 25
+    seeds:
+      - 1370180479
+
+  diffdock:
+    num_modes: 40
+    seeds:
+      - 1370180479
+      - 1449838082
+      - 1832854922
+      - 1880307061
+      - 2012026466
+analysis:
+  num_top_poses: 25

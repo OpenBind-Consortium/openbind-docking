@@ -1,0 +1,8 @@
+schema_version: 1
+mode: fragment_crossdock
+
+fragment_selection:
+  csv_path: annotated_complexes.csv
+  pb_valid_filter: true
+  artefact_filter: true
+  duplicate_filter_mode: both  # none | prefix | smiles | both
